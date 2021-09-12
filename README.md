@@ -46,4 +46,4 @@ $sudo supervisor restart ProName:ProName_process
 (you can restart daemon "ProName")
 
 
-Reference source https://creepfablic.site/2020/04/01/raspberry-pi-supervisor-daemon/
+Reference source https://creepfablic.site/2020/04/01/raspberrypi-supervisor-daemon/
