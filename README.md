@@ -3,7 +3,7 @@
 ## Step-by-step
 ### Install supervisor
 #### Install via apt-get
-`$ sudo apt-get install supervisor`\
+`$ sudo apt-get install supervisor`
 * If you can see your supervisor version, installation is success.
 `$ supervisord -v`
 
@@ -26,7 +26,7 @@ stdout_logfile=/home/pi/log/err.log ;Where this process log file.
 `$ sudo reboot`
 
 ### Check if the daemon is working properly
-`$ sudo supervisor status`\
+`$ sudo supervisor status`
 * You can see your supervisor process name, status, pid, uptime
 
 ### Stop the daemon
@@ -34,11 +34,11 @@ stdout_logfile=/home/pi/log/err.log ;Where this process log file.
 * You can stop daemon "ProName"
 
 ### Start the daemon
-`$ sudo supervisor start ProName:ProName_process`\
+`$ sudo supervisor start ProName:ProName_process`
 * You can start daemon "ProName"
 
 ### Restart the daemon
-`$ sudo supervisor restart ProName:ProName_process`\
+`$ sudo supervisor restart ProName:ProName_process`
 * You can restart daemon "ProName"
 
 ## References
